@@ -58,7 +58,7 @@ export default function Home() {
 
         <div className="mb-8">
          <span className="px-6 py-3 rounded-full backdrop-blur-md bg-white/5 border border-cyan-400/30 text-cyan-300">
-  🚀 Built AI-Powered Test Case Generator using ROVO AI
+  🚀 Built AI-Powered Test Case Generator
 </span>
 <div className="mt-6">
   <span className="inline-block px-6 py-3 rounded-full backdrop-blur-md bg-white/5 border border-purple-400/30 text-purple-300">
@@ -125,8 +125,7 @@ export default function Home() {
 
               <p className="text-gray-400 leading-8 mt-4">
                 Currently working at Cytel, where I built an
-                AI-powered Test Case Generation Agent using ROVO
-                (JIRA AI) that reduced test design effort by nearly 40%.
+                AI-powered Test Case Generation Agent that reduced test design effort by nearly 40%.
               </p>
             </div>
 
@@ -203,10 +202,10 @@ export default function Home() {
 </div>
 
               <ul className="space-y-2 text-gray-400">
-                <li>🚀 Built AI-powered Test Case Generator using ROVO (JIRA AI)</li>
-                <li>🚀 Reduced test design effort by ~40%</li>
-                <li>🚀 Building Playwright Automation Framework</li>
-                <li>🚀 API Testing using Postman</li>
+                <li>✅ Built AI-powered Test Case Generator</li>
+                <li>✅ Reduced test design effort by ~40%</li>
+                <li>✅ Building Playwright Automation Framework</li>
+                <li>✅ API Testing using Postman</li>
               </ul>
             </div>
 
@@ -309,7 +308,7 @@ export default function Home() {
         </h3>
 
         <p className="text-gray-400 mb-6">
-          Built a ROVO AI Agent that automatically generates
+          Built an AI Agent that automatically generates
           requirement-linked test scenarios and reduces test
           design effort significantly.
         </p>
@@ -449,7 +448,7 @@ export default function Home() {
       </span>
 
       <span className="px-5 py-3 rounded-2xl bg-yellow-500/10 text-yellow-400 border border-yellow-500/20 hover:scale-105 transition">
-        ROVO AI
+        Agentic AI
       </span>
 
       <span className="px-5 py-3 rounded-2xl bg-blue-500/10 text-blue-400 border border-blue-500/20 hover:scale-105 transition">
