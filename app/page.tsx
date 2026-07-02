@@ -491,7 +491,7 @@ Always open to discussions around testing strategies, automation frameworks and 
   rel="noopener noreferrer"
   className="text-zinc-400 hover:text-cyan-400 transition"
 >
-  linkedin.com/in/divyamchaudhari
+  divyamchaudhari
 </a>
       </div>
 
@@ -504,7 +504,7 @@ Always open to discussions around testing strategies, automation frameworks and 
   rel="noopener noreferrer"
   className="text-zinc-400 hover:text-cyan-400 transition"
 >
-  github.com/divyam-c
+  divyam-c
 </a>
         </p>
       </div>
