@@ -390,7 +390,7 @@ export default function Home() {
    {/* Skills Section */}
 <section
   id="skills"
-  className="min-h-screen bg-black text-white px-6 py-20"
+  className="bg-black text-white px-6 py-20"
 >
   <div className="max-w-6xl mx-auto">
 
