@@ -476,9 +476,12 @@ export default function Home() {
     <div className="grid md:grid-cols-3 gap-6">
       <div className="rounded-2xl p-6 backdrop-blur-md bg-white/5 border border-white/10 hover:border-purple-500/50 transition duration-300">
         <h3 className="font-semibold mb-2">Email</h3>
-        <p className="text-zinc-400">
-          divyamschaudhari@gmail.com
-        </p>
+        <a
+  href="mailto:divyamschaudhari@gmail.com"
+  className="text-zinc-400 hover:text-cyan-400 transition"
+>
+  divyamschaudhari@gmail.com
+</a>
       </div>
 
       <div className="rounded-2xl p-6 backdrop-blur-md bg-white/5 border border-white/10 hover:border-purple-500/50 transition duration-300">
