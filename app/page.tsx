@@ -470,8 +470,7 @@ export default function Home() {
     </h2>
 
     <p className="text-zinc-400 mb-10">
-      Open to Software Testing, QA Automation, SDET and Playwright opportunities.
-    </p>
+Always open to discussions around testing strategies, automation frameworks and  emerging QA technologies.    </p>
 
     <div className="grid md:grid-cols-3 gap-6">
       <div className="rounded-2xl p-6 backdrop-blur-md bg-white/5 border border-white/10 hover:border-purple-500/50 transition duration-300">
