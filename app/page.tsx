@@ -1,5 +1,8 @@
+"use client";
+import { useState } from "react";
 import Cursor from "./components/Cursor";
 export default function Home() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <main className="min-h-screen bg-black text-white">
 <Cursor />
@@ -12,18 +15,14 @@ export default function Home() {
     </h1>
 
     {/* Desktop Menu */}
-    <div className="hidden md:flex gap-6 text-sm">
-      <a href="#about">About</a>
+<div className="flex gap-3 text-xs md:gap-6 md:text-sm">      <a href="#about">About</a>
       <a href="#experience">Experience</a>
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
     </div>
 
-    {/* Mobile Menu Icon */}
-    <button className="md:hidden text-white text-2xl">
-      ☰
-    </button>
+   
 
   </div>
 </nav>
