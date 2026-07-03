@@ -5,36 +5,28 @@ export default function Home() {
 <Cursor />
       {/* Navbar */}
       <nav className="fixed top-0 w-full bg-black/80 backdrop-blur-md z-50 border-b border-zinc-800">
-        <div className="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
+  <div className="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
 
-          <h1 className="font-black text-2xl bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
-  Divyam
-</h1>
+    <h1 className="font-black text-2xl bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
+      Divyam
+    </h1>
 
-          <div className="flex gap-6 text-sm">
-            <a href="#about" className="hover:text-green-400 transition">
-              About
-            </a>
+    {/* Desktop Menu */}
+    <div className="hidden md:flex gap-6 text-sm">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
 
-            <a href="#experience" className="hover:text-green-400 transition">
-              Experience
-            </a>
+    {/* Mobile Menu Icon */}
+    <button className="md:hidden text-white text-2xl">
+      ☰
+    </button>
 
-            <a href="#projects" className="hover:text-green-400 transition">
-              Projects
-            </a>
-
-            <a href="#skills" className="hover:text-green-400 transition">
-              Skills
-            </a>
-            <a href="#contact" className="hover:text-cyan-400 transition">
-  Contact
-</a>
-          </div>
-
-        </div>
-      </nav>
-
+  </div>
+</nav>
       {/* Hero Section */}
 <section className="relative flex flex-col items-center justify-center min-h-screen text-center px-6 pt-24">        <p className="text-lg text-gray-400 mb-4">
           ISTQB Certified SDET • AI-Powered QA
