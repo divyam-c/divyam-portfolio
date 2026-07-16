@@ -79,12 +79,18 @@ export default function Home() {
 
   </div>
 
+  <div className="mt-12 mb-20 flex items-center justify-center gap-4">
+  <div className="w-20 h-px bg-cyan-400/30"></div>
+
   <a
     href="#contact"
-    className="text-cyan-400 hover:text-cyan-300 transition"
+    className="text-cyan-400 hover:text-cyan-300 transition text-lg font-medium"
   >
     Let's Connect →
   </a>
+
+  <div className="w-20 h-px bg-cyan-400/30"></div>
+</div>
 
 </div>
 
@@ -322,28 +328,33 @@ export default function Home() {
       {/* Project 3 */}
       <div className="border border-zinc-800 rounded-2xl p-8 hover:border-green-500 transition">
         <h3 className="text-2xl font-bold mb-4">
-          Playwright Framework
-        </h3>
+  AI-Powered Playwright Framework
+</h3>
 
-        <p className="text-gray-400 mb-6">
-          Modern automation framework built using Playwright
-          and JavaScript with reusable utilities and scalable
-          architecture.
-        </p>
+<p className="text-gray-400 mb-6">
+  Developed a scalable Playwright automation framework
+  for the BookCart application using JavaScript,
+  Page Object Model (POM), reusable utilities,
+  reporting, and AI-assisted testing workflows.
+</p>
 
-        <div className="flex flex-wrap gap-2">
-          <span className="bg-zinc-800 px-3 py-1 rounded-lg">
-            Playwright
-          </span>
+<div className="flex flex-wrap gap-2">
+  <span className="bg-zinc-800 px-3 py-1 rounded-lg">
+    Playwright
+  </span>
 
-          <span className="bg-zinc-800 px-3 py-1 rounded-lg">
-            JavaScript
-          </span>
+  <span className="bg-zinc-800 px-3 py-1 rounded-lg">
+    JavaScript
+  </span>
 
-          <span className="bg-zinc-800 px-3 py-1 rounded-lg">
-            Automation
-          </span>
-        </div>
+  <span className="bg-zinc-800 px-3 py-1 rounded-lg">
+    POM
+  </span>
+
+  <span className="bg-zinc-800 px-3 py-1 rounded-lg">
+    AI Testing
+  </span>
+</div>
       </div>
 
       {/* Project 4 */}
