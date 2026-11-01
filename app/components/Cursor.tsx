@@ -1,3 +1,4 @@
+
 "use client";
 
 import { motion } from "framer-motion";
@@ -20,10 +21,7 @@ export default function Cursor() {
     window.addEventListener("mousemove", moveCursor);
 
     return () =>
-      window.removeEventListener(
-        "mousemove",
-        moveCursor
-      );
+      window.removeEventListener("mousemove", moveCursor);
   }, []);
 
   return (
